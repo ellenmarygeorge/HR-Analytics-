@@ -1,4 +1,4 @@
-# HR-Analytics-
+# HR-Analytics-PowerBI Dashboard
 This is a Power BI end to end project.
 I created an HR analytics dashboard using Power BI, providing insightful visualizations on key HR metrics. This Power BI dashboard effectively visualizes critical HR data, enabling the organization to identify patterns and factors influencing employee attrition. My role included data extraction, transformation, and visualization to support strategic HR decisions.
 
