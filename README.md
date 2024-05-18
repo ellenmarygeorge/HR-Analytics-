@@ -1,56 +1,48 @@
 # HR-Analytics-
 This is a Power BI end to end project.
-Certainly! Below is an example of a README.md file for the HR Analytics project hosted on GitHub:
+I created an HR analytics dashboard using Power BI, providing insightful visualizations on key HR metrics. This Power BI dashboard effectively visualizes critical HR data, enabling the organization to identify patterns and factors influencing employee attrition. My role included data extraction, transformation, and visualization to support strategic HR decisions.
 
-```
-# HR Analytics Project
+# To analyze the HR Analytics Dashboard using Power BI, a data analyst could pose a variety of questions to uncover insights and make data-driven decisions. Here are some sample questions that address different aspects of the dashboard data:
 
-## Overview
+1.  General Overview: 
+   - What is the total employee count and how many employees have left the company?
+   - What is the overall attrition rate?
 
-This repository contains code and resources for analyzing HR data to gain insights into employee attrition and performance. The project aims to leverage data science techniques to understand factors influencing employee turnover and to build predictive models for attrition prediction.
+2.  Demographic Analysis: 
+   - What is the average age of employees at the company?
+   - How does attrition vary by gender?
+   - How does the attrition rate vary across different age groups?
 
-## Table of Contents
+3.  Tenure and Experience: 
+   - What is the average number of years employees stay at the company?
+   - How does attrition vary by the number of years employees have been with the company?
 
-- [Dataset](#dataset)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Feature Engineering](#feature-engineering)
-- [Model Building](#model-building)
-- [Evaluation](#evaluation)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+4.  Salary and Compensation: 
+   - What is the average salary of employees?
+   - How does attrition rate change across different salary ranges?
 
-## Dataset
+5.  Education and Job Roles: 
+   - What is the attrition rate for employees with different educational backgrounds?
+   - Which job roles have the highest and lowest attrition rates?
 
-The dataset used for this project is provided by [Kaggle](https://www.kaggle.com), titled [HR Analytics: Job Change of Data Scientists](https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists). It includes various features such as education level, experience, company size, and previous job roles, along with the target variable indicating whether an employee is likely to leave the current job or not.
+6.  Departmental Insights: 
+   - How does attrition vary across different departments (e.g., Human Resources, Research & Development, Sales)?
+   - Within each department, which job roles are most affected by attrition?
 
-## Exploratory Data Analysis
+7.  Age and Attrition: 
+   - What are the attrition rates for different age categories?
+   - How does attrition vary for employees under 25 compared to those over 55?
 
-The exploratory data analysis (EDA) phase involves understanding the dataset's structure, identifying patterns, and visualizing relationships between different variables. Jupyter notebooks containing EDA code can be found in the `notebooks` directory.
+8.  Gender-Specific Trends: 
+   - What is the attrition count for males versus females?
+   - Are there any notable trends in attrition rates between male and female employees in specific job roles or departments?
 
-## Feature Engineering
+9.  Detailed Role Analysis: 
+   - For a specific job role, such as Sales Executives, what is the breakdown of attrition by years at the company?
+   - How does the attrition rate for Research Scientists compare to that of Sales Representatives?
 
-Feature engineering is crucial for building predictive models. In this phase, we preprocess and transform the features to improve model performance. The `feature_engineering.py` script in the `src` directory contains functions for feature engineering tasks.
+10.  Salary and Job Roles: 
+    - What is the distribution of attrition across different salary bands for job roles such as Laboratory Technicians and Sales Executives?
+    - How does the attrition rate vary for employees earning below 5k compared to those earning above 15k?
 
-## Model Building
-
-Several machine learning algorithms are explored to predict employee attrition, including logistic regression, random forests, and gradient boosting. The `model_building.ipynb` notebook in the `notebooks` directory demonstrates the model building process.
-
-## Evaluation
-
-Model performance is evaluated using appropriate metrics such as accuracy, precision, recall, and ROC-AUC. The `evaluation.ipynb` notebook in the `notebooks` directory contains code for evaluating model performance on test data.
-
-## Deployment
-
-Once a satisfactory model is built and evaluated, it can be deployed for real-world use. Deployment strategies, such as deploying as a web service or integrating into existing HR systems, are explored in the `deployment` directory.
-
-## Contributing
-
-Contributions to this project are welcome. If you have suggestions for improvements or encounter any issues, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Feel free to customize the README according to your project's specifics and add any additional sections or information you deem necessary!
+By asking these questions, a data analyst can effectively leverage the Power BI dashboard to identify patterns, uncover potential issues, and develop strategies to improve employee retention and overall HR performance.
